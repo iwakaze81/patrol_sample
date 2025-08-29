@@ -45,7 +45,6 @@ app.*.map.json
 
 # FVM Version Manager
 .fvm/
-.fvmrc
 
 # Xcode
 **/dgph

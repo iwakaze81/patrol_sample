@@ -88,3 +88,12 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+patrol:
+  app_name: Patrol Sample
+  android:
+    package_name: com.example.patrol_sample
+  ios:
+    bundle_id: com.example.patrolSample
+  macos:
+    bundle_id: com.example.patrolSample

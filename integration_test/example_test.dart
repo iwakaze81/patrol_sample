@@ -22,9 +22,9 @@ void main() {
 
       await Future.delayed(const Duration(seconds: 10));
 
-      // if (!Platform.isMacOS) {
-      //   await $.native.pressHome();
-      // }
+      if (!Platform.isMacOS) {
+        await $.native.pressHome();
+      }
     },
   );
 }
